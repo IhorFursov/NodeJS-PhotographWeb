@@ -1,0 +1,23 @@
+doctype
+head
+  title= 'WebService'
+  meta(charset='utf-8')
+  link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+  link(rel='stylesheet' href='css/style.css')
+  style.
+      ul.nav a {
+      text-transform: capitalize;
+      }
+body
+  .container.text
+      h1.text= page
+      hr
+      ul.nav.nav-pills
+          li.text1: a(href=links[0])= 'Главная'
+          li.text1: a(href=links[1])= 'Примеры работ'
+          li.text1: a(href=links[2])= 'О фотографии'
+          li.text1: a(href=links[3])= 'Контакты'
+
+      hr
+      block arr_IMG
+script(src='js/script.js')

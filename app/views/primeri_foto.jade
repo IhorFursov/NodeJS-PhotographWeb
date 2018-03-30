@@ -1,0 +1,14 @@
+extends layout
+script(script='js/script.js')
+block arr_IMG
+  hr
+  each foto in arr_IMG
+    div
+      .container
+        button.btn
+          img(src=''+foto.photo_src id=''+foto.id_fotografii).pic
+        p.container_text= foto.opisanie
+    hr
+
+
+

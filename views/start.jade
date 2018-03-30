@@ -1,0 +1,96 @@
+doctype
+html
+  head
+    title WebService
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='css/style.css')
+    style.
+      ul.nav a {
+      text-transform: capitalize;
+      }
+  body
+    p.title Добро пожаловать на наш сайт
+    .container.text
+      h1.text= page
+      hr
+      ul.nav.nav-pills
+        li.text1: a(href=links[0])= 'Главная'
+        li.text1: a(href=links[1])= 'Примеры работ'
+        li.text1: a(href=links[2])= 'О фотографии'
+        li.text1: a(href=links[3])= 'Контакты'
+      hr
+      p  Приветствуем Вас на сайте фотостудии
+    .container
+      #carousel-ex.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#carousel-ex', data-slide-to='0')
+          li(data-target='#carousel-ex', data-slide-to='1')
+          li(data-target='#carousel-ex', data-slide-to='2')
+          li(data-target='#carousel-ex', data-slide-to='3')
+          li(data-target='#carousel-ex', data-slide-to='4')
+          li(data-target='#carousel-ex', data-slide-to='5')
+          li(data-target='#carousel-ex', data-slide-to='6')
+          li(data-target='#carousel-ex', data-slide-to='7')
+        .carousel-inner
+          .item.active
+            img(src='slider/kamera1.jpg', alt='image').slide_image
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret1.jpg', alt='image').slide_image
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret2.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret3.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret4.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret5.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/portret6.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph
+          .item
+            img(src='slider/semeiniy_portret2.jpg', alt='image')
+            .carousel-caption
+              h2 This is the heading
+              p This is the paragraph    
+          a.left.carousel-control(href='#carousel-ex', data-slide='prev')
+            span.glyphicon.glyphicon-chevron-left
+          a.right.carousel-control(href='#carousel-ex', data-slide='next')
+            span.glyphicon.glyphicon-chevron-right
+      .container
+        hr
+        p
+          
+        hr
+        p
+          Для просмотра слайдера используйте указательные стрелки на нем, а для его открытия - нажмите вкладку меню "Главная"!
+        p
+          Для просмотра примеров фотографий нажмите вкладку "Примеры работ" или используйте соответствующие пункты меню.
+        hr
+        p
+          Приятного просмотра! С уважением - Администрация сайта!
+      footer
+        Разработано в 2015 году. ТГАТУ. Г. Мелитополь
+    script(src='http://code.jquery.com/jquery-2.1.1.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')

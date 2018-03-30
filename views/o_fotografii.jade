@@ -1,0 +1,11 @@
+extends layout
+
+block arr_IMG
+  each img in arr_IMG
+    .container
+      button.btn
+        img(src=''+img.photo_src id=''+img.id_fotografii).pic
+    .container
+      p= img.opisanie
+    hr
+    br

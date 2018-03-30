@@ -1,0 +1,102 @@
+.pic {
+	width: 100%;
+	margin: 4px;
+	border: 2px #CCC solid;
+	border-radius: 10px;
+  margin-left: 0px;
+}
+.container_text{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background-image: url('images/fon.jpg');
+}
+ @font-face {
+    font-family: Copyist; /* Гарнитура шрифта */
+    src: url(CopyistThin.ttf); /* Путь к файлу со шрифтом */
+   }
+   p {
+    font-family: Copyist;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40pt;
+    line-height: 70%;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+   }
+   .text{
+   	font-family: Copyist;
+    font-size: 50pt;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+   }
+   .kontakti_inner{
+   	color: brown;
+   }
+   .text1{
+   	font-family: Copyist;
+    font-size: 40pt;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+   }
+   .btn{
+      width: 80%;
+      margin: 20px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px inherit solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+   }
+   .o_foto_div{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .some_image{
+  width: 30%;
+  margin: 4px;
+  border: 2px #CCC solid;
+  border-radius: 10px;
+  margin-left: 0px;
+  float: left;
+   }
+   .info-text{
+    font-family: Copyist;
+    font-size: 36pt;
+    font-weight: 600;
+    color: brown;
+   }
+  .row{
+    background-color: gold;
+    border: 2px gold solid;
+    border-radius: 10px;
+  }
+  .title_text{
+    font-family: Copyist;
+    font-size: 46pt;
+    color: brown;
+  }
+  .with-border{
+    border: 2px #CCC solid;
+    border-radius: 10px;
+  }
+  .slide_image{
+    width: 100%;
+  }
+  ul a{
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+  }
+/*.text {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 10pt;
+	font-style: italic;
+	color: red;
+	width: 20%;
+}*/
